@@ -1,0 +1,33 @@
+int x = 2;
+int y = 3;
+
+if (x == y)
+{
+	x = y;
+}
+else
+{
+	y = x;
+}
+
+while ( y < 5)
+{
+y = y + 1;
+}
+
+for (int x = 0; x < y; x + 2)
+{
+print  x;
+}
+
+switch ( x ) 
+{
+case 1: x+x;
+case 2: x-x;
+}
+
+do
+{
+y=y+1;
+}
+while (y < 7)
